@@ -1,0 +1,116 @@
+img.bgPhoto {
+	border-left:5px #fff solid;
+	border-right:5px #fff solid;
+	border-top:5px #fff solid;
+	border-bottom:5px #fff solid;
+	width:100px;
+	height:150px;
+}
+		
+.imgShadow {
+	float:left;
+	height:160px;
+	width:111px;
+	-moz-box-shadow: 2px 2px 3px #777777;
+	-webkit-box-shadow: 2px 2px 3px #777777;
+	box-shadow: 2px 2px 3px #777777;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#777777')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#777777');
+	display:none;
+	z-index:2;
+	position: absolute;
+}
+
+#shuffleButton img {
+	float: right;
+	cursor: pointer;
+}
+
+#shuffleButton {
+	width: 510px;
+	height: 30px;
+	margin: 10px auto 0;
+}
+
+#bios {
+	width: 520px;
+	margin: 0 auto;
+}
+
+#photoHolder {
+	width: 200px;
+	height: 300px;
+	float: left;
+	position: relative;
+}
+		
+#textHolder {
+	background: #fff;
+	border: 1px solid #999999;
+	width: 270px;
+	margin-left: 240px;
+	display: none;
+	overflow-y: scroll;
+	height: 300px;
+	overflow-x: hidden;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+
+	behavior:url(border-radius.htc);
+}
+		
+#textHolder p {
+	font-family: 'Arial';
+	font-size: 13px;
+	margin-left: 10px;
+	width: 208px;
+	color: #000;
+	margin-top: 6px;
+}
+
+#photos {
+	margin-top: -5px;
+	width: 520px;
+	height: 350px;
+}
+
+#photos div {
+	position: absolute;
+}
+
+#videoTextHolder {
+	width: 520px;
+	margin: 0 auto;
+	display: none;
+}
+
+#videoTextHolder h2 {
+	margin-left: 10px;
+	font-family: 'Arial';
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+}
+
+#videoHolder {
+	width: 520px;
+	margin: 0 auto;
+}
+
+#all_members {
+	width: 810px;
+	clear: both;
+}
+
+#all_members h2 {
+	font-family: 'Arial';
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+}
+
+img.clickable {
+	cursor: pointer;
+}

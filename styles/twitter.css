@@ -1,0 +1,126 @@
+* {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+body { 
+	margin: 0; 
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 810px;
+}
+
+img.header {
+	display: block;
+	margin: 0 auto;
+}
+
+.profile_pic {
+	float: left;
+}
+
+.tweetright{
+	margin-left: 60px;
+}
+
+#tweets li:last-child{
+	border: none;
+}
+
+.tweet{
+	list-style: none;
+	margin-left: -40px;
+	min-height: 50px;
+	border-bottom: 1px solid #CCC;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.text{
+	font-size: 12px;
+}
+
+.user{
+	font-size: 14px;
+}
+
+.when{
+	margin-top: 7px;
+	font-size: 10px;
+}
+
+/* Style of user link */
+.user{
+	font-weight: bold;
+}
+
+.user a:link, .user a:visited, .user a:active{
+	text-decoration: none;
+	color: #3B5998;
+}
+
+.user a:hover{
+	text-decoration: underline;
+}
+
+/* Style of links in the tweet */
+a.tweetuser:link, a.tweetuser:visited, a.tweetuser:active{
+	text-decoration: none;
+	color: #3B5998;
+}
+
+a.tweetuser:hover{
+	text-decoration: underline;
+}
+
+a.tweetlink:link, a.tweetlink:visited, a.tweetlink:active{
+	text-decoration: none;
+	color: #3B5998;
+}
+
+a.tweetlink:hover{
+	text-decoration: underline;
+}
+
+a.tweethashtag:link, a.tweethashtag:visited, a.tweethashtag:active{
+	text-decoration: none;
+	color: #3B5998;
+}
+
+a.tweethashtag:hover{
+	text-decoration: underline;
+}
+
+
+
+.when a:link, .when a:visited, .when a:active{
+	text-decoration: none;
+	color: #999;
+}
+
+.when a:hover{
+	text-decoration: underline;
+}
+
+a { 
+	text-decoration: none; 
+	font-weight: normal; 
+	font-family: 'Helvetica'; 
+	font-size: 15px;
+	color:#000; 
+}
+
+.footer {
+	width: 100%;
+	height: 20px;
+	font-family: 'Helvetica';
+	font-size: 10px;
+	border-top: 2px solid #000;
+}
+
+.footer a {
+	float: right;
+	text-decoration: none;
+	color: #000;
+}
